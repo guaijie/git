@@ -8,15 +8,15 @@
  
 # github GUI(sourcetree)
 
- 	[sourcetree](https://www.sourcetreeapp.com)
+[sourcetree](https://www.sourcetreeapp.com)
  
 # 配置用户信息
 
 > ## 全局用户配置 
 
- 	git config --global user.name &lt; username &gt;
+ 	git config --global user.name <username>
 
-  	git config --global user.email &lt; email &gt;
+  	git config --global user.email <email &gt>
 
  	git config --list 查看全局配置
  
@@ -39,9 +39,9 @@
 	git status
 	
 # 其他
-	echo &lt;内容&gt; >> &lt;文件名&gt; 
+	echo <内容&gt> >> <文件名>
 	
-	cat &lt;文件名&gt;
+	cat <文件名>
 	
 	
  
