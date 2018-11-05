@@ -56,9 +56,8 @@
 
 > ## 回滚
 	
-	git reset <commit id>
-
-
+	git reset [--hard] <commit id> [暂存区和版本库都]回滚
+ 
 	
 # 工作流
 > ##
