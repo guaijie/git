@@ -42,6 +42,10 @@
 	
 	git reset HEAD <文件名>
 	
+> ## 清空工作区
+	
+	git checkout ./<文件名>（让修改的文件回到修改前）
+	
 > ## 打印历史commit记录
 	
 	git log
