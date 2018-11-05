@@ -65,7 +65,7 @@
 	
 # 工作流
 
-![git 工作流](图片地址 ''图片title'')
+![git 工作流](https://github.com/guaijie/github/blob/master/img/QQ%E6%88%AA%E5%9B%BE20181105154643.png "工作流")
 	
 # 其他
 	echo <内容> >> <文件名>
