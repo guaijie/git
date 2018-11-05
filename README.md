@@ -101,14 +101,35 @@
 
 	git tag <tagname>
 	
-> ## 指定提交信息
-
-	git tag -a name -m
+> ## 创建有描述信息的标签
+ 
+	git tag -a name -m ""
 	
 > ## 删除标签
 
 	git tag -d name
 	
+> ## 标签发布
+
+	git push <主机名> <tagname>
+	
+# 分支管理
+ 
+> ## 查看所有分支
+	
+	git branch
+
+> ## 切换分支
+
+	git checkout <branchname>
+	
+> ## 合并分支
+	
+	git merge <branchname>
+	
+> ## 删除分支
+ 	
+	git branch -d <branchname>
 	
 # 其他
 	echo <内容> >> <文件名>
