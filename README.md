@@ -92,6 +92,23 @@
 	添加主机名（默认为origin）
 
 # 标签管理（标签回滚）
+ 
+> ## 查看所有标签
+
+	git tag
+	
+> ## 创建标签
+
+	git tag <tagname>
+	
+> ## 指定提交信息
+
+	git tag -a name -m
+	
+> ## 删除标签
+
+	git tag -d name
+	
 	
 # 其他
 	echo <内容> >> <文件名>
