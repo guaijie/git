@@ -1,5 +1,5 @@
 # github
-> # #study github directive
+    study github directive
 
 # download github
   直接进入官网下载安装包
