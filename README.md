@@ -30,16 +30,19 @@
 	
 > ## 添加文件到版本库
 
-	git add（添加到索引区）
+	git add（添加到暂存区）
 	
-	git commit（添加到版本库）
+	git commit -m（添加到版本库）
 	
 > ## 查看仓库状态
 
 	git status
 	
+# 工作流
+> ##
+	
 # 其他
-	echo <内容&gt> >> <文件名>
+	echo <内容> >> <文件名>
 	
 	cat <文件名>
 	
