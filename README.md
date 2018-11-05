@@ -19,8 +19,7 @@
   	git config --global user.email <email &gt>
 
  	git config --list 查看全局配置
- 
-> ## 使用SSH
+
 
 # 创建一个仓库
 
@@ -61,11 +60,36 @@
 > ## 移除指定文件
 
 	git rm <文件名>
- 
-	
+
 # 工作流
 
 ![git 工作流](https://github.com/guaijie/github/blob/master/img/QQ%E6%88%AA%E5%9B%BE20181105154643.png "工作流")
+
+# 远程仓库
+
+> ## SSH keys
+
+	ssh-keygen -t rsa -C "myemail" (生成ssh key 在C盘Users的当前账户目录中）
+	
+> > ### 查看是否授权成功
+	
+	ssh -T git@github.com
+	
+> ## git pull <主机名> <分支>
+	
+	从远程仓库中拉取指定分支的数据
+	
+> ## git clone <主机名> <分支>
+
+	从远程仓库中克隆指定分支的数据
+	
+> ## git push [-u] <主机名> <分支> 
+
+	[设置默认主机] 并推送到远程的指定分支
+	
+> ## git remote add <主机名>  
+
+	添加主机名（默认为origin）
 	
 # 其他
 	echo <内容> >> <文件名>
@@ -73,4 +97,5 @@
 	cat <文件名>
 	
 	
+
  
