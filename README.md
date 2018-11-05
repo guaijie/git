@@ -17,6 +17,12 @@
  
 > ## 使用SSH
 
+# 创建一个仓库
+> ##  初始化版本库
+	git init
+> ## 添加文件到版本库
+	git add
+	git commit
+	
 
-
-
+ 
