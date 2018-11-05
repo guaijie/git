@@ -30,13 +30,31 @@
 	
 > ## 添加文件到版本库
 
-	git add（添加到暂存区）
+	git add ./<文件名>（添加到暂存区）
 	
 	git commit -m（添加到版本库）
 	
 > ## 查看仓库状态
 
 	git status
+	
+> ## 将暂存区的版本回归到工作区
+	
+	git reset HEAD <文件名>
+	
+> ## 打印历史commit记录
+	
+	git log
+	
+> ## 打印未来commit 记录
+
+	git reflog
+
+> ## 回滚
+	
+	git reset <commit id>
+
+
 	
 # 工作流
 > ##
