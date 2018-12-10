@@ -94,6 +94,14 @@
 > ## git remote add <主机名>  
 
 	添加主机名（默认为origin）
+	
+> ## git config core.sparsecheckout true(用于迁出指定的文件夹)
+
+	开启sparse checkout 模式
+	
+> ## echo libs >> .git/info/sparse-checkout  
+
+	告诉Git哪些文件或者文件夹是你真正想Check Out的
 
 # 标签管理（标签回滚）
  
