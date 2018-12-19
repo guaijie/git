@@ -83,6 +83,10 @@
 	
 	从远程仓库中拉取指定分支的数据
 	
+> ## git pull <主机名> <分支> --allow-unrelated-histories
+
+	从远程仓库中拉取指定分支的数据同时merge unrelated histories
+	
 > ## git clone <主机名> <分支>
 
 	从远程仓库中克隆指定分支的数据
