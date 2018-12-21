@@ -60,6 +60,27 @@
 > ## 移除指定文件
 
 	git rm <文件名>
+	
+
+> ## 把当前的工作隐藏起来 等以后恢复现场后继续工作
+
+        git stash 
+	
+> ## 查看所有被隐藏的文件列表
+
+	git stash list 
+
+> ## 恢复被隐藏的文件，但是内容不删除
+
+	git stash apply 
+
+> ## 删除文件
+
+	git stash drop 
+
+> ## 恢复文件的同时 也删除文件
+
+	git stash pop 
 
 # 工作流
 
