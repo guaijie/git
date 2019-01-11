@@ -92,7 +92,7 @@
 
 	ssh-keygen -t rsa -C "myemail" (生成ssh key 在C盘Users的当前账户目录中）
 	
-> > ### 查看是否授权成功
+> ## 查看是否授权成功
 	
 	ssh -T git@github.com
 	
