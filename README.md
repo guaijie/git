@@ -112,7 +112,7 @@
 
 	从远程仓库中克隆指定分支的数据
 	
-> ## git push [-u] <主机名> <分支> 
+> ## git push \[-u] <主机名> <分支> 
 
 	[设置默认主机] 并推送到远程的指定分支
 	
@@ -124,7 +124,7 @@
 
 	开启sparse checkout 模式
 	
-> ## echo libs >> .git/info/sparse-checkout  
+> ## echo \[libs] >> .git/info/sparse-checkout  
 
 	告诉Git哪些文件或者文件夹是你真正想Check Out的
 
