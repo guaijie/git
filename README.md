@@ -21,7 +21,7 @@
  	git config --list 查看全局配置
 
 
-# 创建一个仓库
+# 创建一个仓库（基本操作）
 
 > ##  初始化版本库
 
@@ -86,7 +86,7 @@
 
 ![git 工作流](https://github.com/guaijie/github/blob/master/img/QQ%E6%88%AA%E5%9B%BE20181105154643.png "工作流")
 
-# 远程仓库
+# 远程仓库（基本操作）
 
 > ## SSH keys
 
@@ -127,28 +127,32 @@
 > ## echo \[libs] >> .git/info/sparse-checkout  
 
 	告诉Git哪些文件或者文件夹是你真正想Check Out的
+	
+# 远程管理
 
-# 标签管理（标签回滚）
+>
+
+# 标签管理
  
-> ## 查看所有标签
+## 1. git tag
 
-	git tag
-	
-> ## 创建标签
+> 查看所有标签	
 
-	git tag <tagname>
-	
-> ## 创建有描述信息的标签
+## 2. git tag <tagname>
+
+> 创建标签
  
-	git tag -a name -m ""
-	
-> ## 删除标签
+## 3. git tag -a name -m ""
 
-	git tag -d name
+> 创建有描述信息的标签
 	
-> ## 标签发布
+## 4. git tag -d name
 
-	git push <主机名> <tagname>
+> 删除标签
+
+## 5. git push <主机名> <tagname>
+	
+> 标签发布
 	
 # 分支管理
  
