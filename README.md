@@ -12,7 +12,7 @@
 
  	git config --global user.name <username>
 
-  	git config --global user.email <email &gt>
+  	git config --global user.email <email>
 
  	git config --list 查看全局配置
 
@@ -25,7 +25,7 @@
 	
 > ## 添加文件到版本库
 
-	git add ./<文件名>（添加到暂存区）
+	git add (.|<文件名>)（添加到暂存区）
 	
 	git commit -m（添加到版本库）
 	
@@ -39,7 +39,7 @@
 	
 > ## 清空工作区
 	
-	git checkout ./<文件名>（让修改的文件回到修改前）
+	git checkout (.|<文件名>)（让修改的文件回到修改前）
 	
 > ## 打印历史commit记录
 	
