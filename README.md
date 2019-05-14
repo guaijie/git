@@ -51,7 +51,9 @@
 
 > ## 回滚
 	
-	git reset [--hard] <commit id> [暂存区和版本库都]回滚
+	git reset --hard <commit id> [版本库、暂存区以及工作区代码]回滚
+	git reset --mixed <commit id> [版本库和暂存区]回滚
+	git reset --soft <commit id> [版本库]回滚
 	
 > ## 移除指定文件
 
