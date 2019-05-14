@@ -156,9 +156,9 @@
 	
 > 查看所有分支
 
-## 2. git checkout <branchname>
+## 2. git checkout \[-b] <branchname>
 
-> 切换分支	
+> （创建并）切换分支	
 	
 ## 3. git merge <branchname>
 	
