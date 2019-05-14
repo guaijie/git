@@ -152,21 +152,21 @@
 	
 # 分支管理
  
-> ## 查看所有分支
+## 1. git branch
 	
-	git branch
+> 查看所有分支
 
-> ## 切换分支
+## 2. git checkout <branchname>
 
-	git checkout <branchname>
+> 切换分支	
 	
-> ## 合并分支
+## 3. git merge <branchname>
 	
-	git merge <branchname>
+> 合并分支	
 	
-> ## 删除分支
+## 4. git branch -d <branchname>
  	
-	git branch -d <branchname>
+> 删除分支
 	
 # 其他
 	echo <内容> >> <文件名> （添加信息到指定文件中）
