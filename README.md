@@ -51,9 +51,14 @@
 
 > ## 回滚
 	
-	git reset --hard <commit id> [版本库、暂存区以及工作区代码]回滚
-	git reset --mixed <commit id> [版本库和暂存区]回滚
-	git reset --soft <commit id> [版本库]回滚
+	git reset --hard <commit id>：[版本库、暂存区以及工作区代码]回滚
+	git reset --mixed <commit id>：[版本库和暂存区]回滚
+	git reset --soft <commit id>：[版本库]回滚
+	
+> ## 比较
+
+	git diff --staged：比较工作区与暂存区的不同
+	git diff --cached比较暂存区与本地库的不同
 	
 > ## 移除指定文件
 
