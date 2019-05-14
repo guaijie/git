@@ -92,27 +92,27 @@
 	
 	ssh -T git@github.com
 	
-> ## git pull <主机名> <分支>:<本地分支>
+> ## git pull \<主机名> \<分支>:\<本地分支>
 	
 	从远程仓库中拉取指定分支的数据并与本地分支合并
 	
-> ## git fetch <主机名> <分支>
+> ## git fetch \<主机名> \<分支>
 	
 	从远程仓库中拉取指定分支的数据
 	
-> ## git pull <主机名> <分支> --allow-unrelated-histories
+> ## git pull \<主机名> \<分支> --allow-unrelated-histories
 
 	从远程仓库中拉取指定分支的数据同时merge unrelated histories
 	
-> ## git clone <主机名> <分支>
+> ## git clone \<主机名> \<分支>
 
 	从远程仓库中克隆指定分支的数据
 	
-> ## git push \[-u] <主机名> <分支> 
+> ## git push \[-u] \<主机名> \<分支> 
 
 	[设置默认主机] 并推送到远程的指定分支
 	
-> ## git remote add <主机名>  
+> ## git remote add \<主机名>  
 
 	添加主机名（默认为origin）
 	
@@ -134,7 +134,7 @@
 
 > 查看所有标签	
 
-## 2. git tag <tagname>
+## 2. git tag \<tagname>
 
 > 创建标签
  
@@ -146,7 +146,7 @@
 
 > 删除标签
 
-## 5. git push <主机名> <tagname>
+## 5. git push \<主机名> \<tagname>
 	
 > 标签发布
 	
@@ -160,11 +160,11 @@
 
 > （创建并）切换分支	
 	
-## 3. git merge <branchname>
+## 3. git merge \<branchname>
 	
 > 合并分支	
 	
-## 4. git branch -d <branchname>
+## 4. git branch -d \<branchname>
  	
 > 删除分支
 	
